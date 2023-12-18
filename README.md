@@ -8,7 +8,6 @@ A Python script that provides additional info on security advisories reported by
 Ensure that the Container Security Operator is installed on OpenShift:
 ```
 $ cat << EOF | oc create -f - 
-oc create 
 apiVersion: operators.coreos.com/v1alpha1
 kind: Subscription
 metadata:
